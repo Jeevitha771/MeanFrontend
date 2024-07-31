@@ -5,7 +5,7 @@
     "node": ">=18 <19"
   },
   "scripts": {
-    "dev": "cd geeks && npm start & cd server && npm start",
+    "dev": "cd server && npm start & cd geeks && npm start",
     "prebuild": "cd geeks && npm run build",
     "build": "cd server && npm run build",
     "start": "cd server && node app.js"
