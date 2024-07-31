@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js"
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
