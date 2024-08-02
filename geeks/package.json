@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm install --force && ng build --configuration production",
+    "build": "npm install --force && ng build --configuration production"
   },
   "private": true,
   "dependencies": {
