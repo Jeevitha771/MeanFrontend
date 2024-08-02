@@ -8,7 +8,7 @@
     "dev": "cd server && npm start & cd geeks && npm start",
     "prebuild": "cd geeks && npm run build",
     "build": "cd server && npm run build",
-    "start": "cd server && node app.js"
+    "start": "cd geeks && npm start"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
