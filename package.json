@@ -8,7 +8,8 @@
     "dev": "cd server && npm start & cd geeks && npm start",
     "prebuild": "cd geeks && npm run build",
     "build": "cd server && npm run build",
-    "start": "cd geeks && npm start"
+    "start": "cd geeks && npm start",
+    "startbackend":"cd server && npm start"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
