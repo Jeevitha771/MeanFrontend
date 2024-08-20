@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node start.js",
-    "build": "npm install --force && ng build --configuration production"
+    "build": "npm install --force && ng test --watch=false && ng build --configuration production"
   },
   "private": true,
   "dependencies": {
