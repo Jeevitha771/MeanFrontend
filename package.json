@@ -1,15 +1,15 @@
 {
-  "name": "your-project-name",
+  "name": "MEANFRONTEND",
   "version": "1.0.0",
   "engines": {
     "node": ">=18 <19"
   },
   "scripts": {
-    "dev": "cd server && npm start & cd geeks && npm start",
-    "prebuild": "cd geeks && npm run build",
-    "build": "cd server && npm run build",
+    "dev": "cd geeks && npm start & cd server && npm start",
+    "build": "cd geeks && npm run build",
+    "prebuild": "cd server && npm run build",
     "start": "cd geeks && npm start",
-    "startbackend":"cd server && npm start"
+    "startbackend": "cd server && npm start"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
